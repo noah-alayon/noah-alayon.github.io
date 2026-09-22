@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#resume {
+    width: 75%;
+}
+
+.resume-header,
+.resume-sub-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-sub-header {
+    font-style: italic;
+}
