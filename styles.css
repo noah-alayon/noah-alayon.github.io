@@ -3,8 +3,13 @@ body {
     justify-content: center;
 }
 
-#resume {
+main {
     width: 75%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 .resume-header,
