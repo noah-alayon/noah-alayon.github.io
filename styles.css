@@ -9,7 +9,22 @@ main {
 
 header {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+}
+
+/* 
+The #photo id selector won over the img selector
+img has a specificity of 10
+#photo has a specificity of 1000
+#photo has a higher specificity, so it wins out over img 
+*/
+#photo {
+    width: 100px;
 }
 
 .resume-header,
