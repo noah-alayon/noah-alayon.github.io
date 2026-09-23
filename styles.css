@@ -20,3 +20,16 @@ body {
 .university {
     margin-bottom: 24px;
 }
+
+.course-work {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0 24px;
+}
